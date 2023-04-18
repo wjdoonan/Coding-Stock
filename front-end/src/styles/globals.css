@@ -1,0 +1,54 @@
+:root {
+  --main-bg-color: #201F27;
+  --main-ac-color: #7E58B9;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  margin: 0%;
+  font-family: sans-serif;
+}
+
+.bg-acent {
+  background-color: var(--main-ac-color);
+}
+
+.bg-acent-text {
+  color: var(--main-ac-color);
+}
+
+.sbs {
+  display: inline-block;
+}
+
+a {
+  color: inherit;
+}
+
+.box-con {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  vertical-align: middle;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.box-con:hover {
+  color: #ffffff7d;
+}
+
+.box-car {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  vertical-align: middle;
+}
+
+@media (min-width: 1000px) {
+  .box-car {
+    width: 70%;
+    margin: auto;
+  }
+}
